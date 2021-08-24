@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "es6",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+  },
+  "experimentalDecorators": true,
+  "include": [
+    "./src/**/*.ts", "src/models/*.ts", "src/controllers/*.ts"
+  ],
+  "exclude": [
+    "./node_modules"
+  ]
+}
